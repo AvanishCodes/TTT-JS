@@ -1,0 +1,72 @@
+td{
+    border: 2px solid #287368b6;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    cursor: pointer;
+}
+p{
+    display: none;
+}
+div{
+    /* justify-content: center;
+    align-items: center; */
+    text-align: left;
+}
+table{
+    /* width: 600px;
+    height: 600px; */
+    border-collapse: collapse;
+    position: relative;
+    justify-content: center;
+    /* left: 100vw; */
+    display: flex;
+    align-items: center;
+    top: auto;
+    padding: 5vh;
+    /* top: 20; */
+}
+td{
+    width: 200px;
+    height: 200px;
+}
+
+table tr:first-child td{
+    border-top: 0;
+}
+table tr:last-child td{
+    border-bottom: 0;
+}
+table tr td:first-child {
+    border-left: 0;
+}
+table tr td:last-child {
+    border-right: 0;
+}
+
+.endgame{
+    display: none;
+    width: 200px;
+    bottom: 5%;
+    background-color: #989789;
+    position: absolute;
+    right: 5%;
+    margin-left: -100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    border-radius: 5px;
+    color: wheat;
+    font-size: 2em;
+}
+
+.abc{
+    padding-top: vh
+}
+
+.text{
+    text-align: center;
+}
